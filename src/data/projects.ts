@@ -9,61 +9,6 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  // Featured projects from PRD
-  {
-    slug: "sidetool-internal-systems",
-    name: "Sidetool Internal Systems",
-    year: 2024,
-    url: "#",
-    roles: ["Product Strategy", "UX", "Systems Design"],
-    logo: "/logos/projects/sidetool-internal-systems.svg",
-    featured: true,
-  },
-  {
-    slug: "kleva-ai-voice-agent",
-    name: "Kleva AI Voice Agent",
-    year: 2024,
-    url: "#",
-    roles: ["Product Strategy", "UX", "AI Integration"],
-    logo: "/logos/projects/kleva-ai-voice-agent.svg",
-    featured: true,
-  },
-  {
-    slug: "good-mood-group-platform",
-    name: "Good Mood Group Platform",
-    year: 2024,
-    url: "#",
-    roles: ["UX", "UI", "Bubble Development"],
-    logo: "/logos/projects/good-mood-group-platform.svg",
-    featured: true,
-  },
-  {
-    slug: "trn-recruitment-platform",
-    name: "TRN Recruitment Platform",
-    year: 2024,
-    url: "#",
-    roles: ["Product Strategy", "UX", "UI"],
-    logo: "/logos/projects/trn-recruitment-platform.svg",
-    featured: true,
-  },
-  {
-    slug: "solfi-energy-portal",
-    name: "Solfi Energy Portal",
-    year: 2024,
-    url: "#",
-    roles: ["UX", "UI", "Portal Design"],
-    logo: "/logos/projects/solfi-energy-portal.svg",
-    featured: true,
-  },
-  {
-    slug: "pintale-ai-writing-tool",
-    name: "Pintale AI Writing Tool",
-    year: 2024,
-    url: "#",
-    roles: ["Product Strategy", "UX", "AI Tools"],
-    logo: "/logos/projects/pintale-ai-writing-tool.svg",
-    featured: true,
-  },
   // All other projects from projects.doc
   {
     slug: "travel-x-2024",

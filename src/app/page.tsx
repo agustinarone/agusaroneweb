@@ -1,19 +1,19 @@
-import { Navbar } from "@/components/Navbar";
+import { FixedNavbar } from "@/components/FixedNavbar";
 import { Hero } from "@/components/Hero";
+import { HowIHelp } from "@/components/HowIHelp";
 import { Projects } from "@/components/Projects";
 import { Tools } from "@/components/Tools";
-import { Capabilities } from "@/components/Capabilities";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Navbar />
+      <FixedNavbar />
       <Hero />
+      <HowIHelp />
       <Projects />
       <Tools />
-      <Capabilities />
       <Contact />
       <Footer />
     </main>

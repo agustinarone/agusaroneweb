@@ -32,12 +32,14 @@ export function Navbar() {
             >
               Email
             </a>
-            <button
-              onClick={scrollToContact}
+            <a
+              href="https://calendly.com/agustinarone/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[var(--foreground)] text-[var(--background)] px-4 py-2 rounded-md hover:bg-[var(--foreground-muted)] transition-colors"
             >
               Schedule
-            </button>
+            </a>
           </div>
         </div>
       </div>
