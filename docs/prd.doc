@@ -1,0 +1,156 @@
+# PRD — Agus Arone Portfolio Website  
+**Owner:** Agus Arone  
+**Purpose:** Personal portfolio showcasing product strategy, design thinking, and measurable outcomes.  
+**Type:** Single-page website (scroll-based navigation)  
+**Stack:** React + TypeScript (Next.js recommended), deployed on Vercel.  
+
+---
+
+## 🎯 1. Objective
+
+The goal of this site is to communicate who Agus is as a **strategic product manager** — someone who connects strategy, design, and data to build clarity in complex products.  
+The site must feel calm, structured, and minimal, reflecting the same philosophy present in the brand voice guide.  
+It’s not about showing volume of work; it’s about communicating **clarity, reasoning, and perspective.**
+
+---
+
+## 🧭 2. Structure & Sections
+
+### **Hero + About Me**
+
+**Purpose:**  
+Immediately communicate identity, expertise, and approach — positioning Agus as a “Strategic Designer” focused on product clarity and measurable impact.
+
+**Content:**
+- Headline: *“Designing clarity in complex products.”*  
+- Subheadline: *“I help teams turn ambiguity into direction — aligning strategy, design, and data to deliver measurable outcomes.”*  
+- CTA Buttons:  
+  - **LinkedIn** → opens in new tab  
+  - **Email** → mailto link  
+  - **Schedule** → scroll to contact section (Calendly embed)
+
+**Visual tone:** Minimal, white space, subtle motion.  
+Portrait or abstract graphic representing structure/systems thinking (optional).
+
+---
+
+### **Selected Projects**
+
+**Purpose:**  
+Show a curated set of 4–6 projects that reflect thinking, process, and measurable outcomes — not just visuals.
+
+**Content elements per project:**
+- Project name  
+- Short context (1 sentence)  
+- Core challenge (1 line)  
+- Solution summary (2–3 lines)  
+- Result or metric (if applicable)  
+- Link → external Notion case study or demo  
+
+**Featured projects:**  
+- Sidetool internal systems  
+- Kleva AI Voice Agent  
+- Good Mood Group platform (Bubble)  
+- TRN recruitment platform  
+- Solfi Energy portal  
+- Pintale AI writing tool  
+
+Layout: Cards or sections with alternating visuals + copy blocks.
+
+---
+
+### **Tools and Stack**
+
+**Purpose:**  
+Show technical literacy and versatility — reinforce credibility without overwhelming detail.  
+
+**Content:**
+Logos + labels:  
+- **Design:** Figma  
+- **Automation:** Make, n8n  
+- **Development:** Cursor, Supabase, Softr, WordPress, WooCommerce  
+- **Data & Systems:** Airtable, APIs, PostHog  
+
+Text block:  
+> “I use these tools to move from strategy to execution faster — automating workflows, validating ideas, and scaling systems without losing focus.”
+
+---
+
+### **What I Can Do**
+
+**Purpose:**  
+Summarize capabilities clearly, blending strategic and hands-on skills.  
+
+**Structure:**  
+Three short columns or blocks:  
+
+**Product Strategy**  
+- Define direction and measurable outcomes.  
+- Roadmap design, prioritization, and OKR alignment.  
+
+**Design & Systems Thinking**  
+- Map user journeys and flows before code.  
+- Connect architecture with business context.  
+
+**Automation & Delivery**  
+- Build and integrate low-code tools.  
+- Translate vision into scalable, data-backed products.  
+
+Optional CTA: *“See how I work →”* linking to Notion or PDF case studies.
+
+---
+
+### **Contact**
+
+**Purpose:**  
+Convert interest into conversations.  
+
+**Content:**
+- Short invitation:  
+  > “If you’re shaping your next product, let’s talk. Together we can define what’s worth building — and how to build it right.”  
+- Embed Calendly directly (inline iframe).  
+- Display also:  
+  - Email (clickable)  
+  - LinkedIn (clickable icon)  
+
+**Navbar CTAs:**  
+Right-aligned persistent links to:  
+- LinkedIn  
+- Email  
+- Schedule (scroll anchor to contact section)
+
+---
+
+## 🧩 3. Tone & Experience
+
+- Calm, professional, minimal.  
+- Prioritize white space, readable typography (Inter or Plus Jakarta Sans).  
+- Short, declarative sentences.  
+- Visual rhythm guided by structure, not decoration.  
+- Subtle transitions only (fade or slide).  
+- Every section must be scannable in under 10 seconds.
+
+---
+
+## ⚙️ 4. Stack Overview
+
+- **Frontend:** React + TypeScript  
+- **Deployment:** Vercel  
+- **Styling:** TailwindCSS  
+- **Integration:** Calendly iframe, external Notion links  
+- **Analytics:** Optional (Vercel or PostHog lightweight tracking)
+
+---
+
+## ✅ 5. Success Criteria
+
+- Communicates clarity and expertise within 30 seconds of landing.  
+- Highlights strategy and thinking over visuals.  
+- Allows seamless navigation and contact from any point of the page.  
+- Reflects the “Less process, more purpose” philosophy in tone and structure.
+
+---
+
+**Document version:** v1.0  
+**Author:** Agus Arone  
+**Date:** [Insert Date]
