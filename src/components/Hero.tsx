@@ -22,7 +22,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
               className="text-[var(--foreground)] font-sans text-4xl lg:text-5xl font-medium leading-relaxed"
             >
-              Hi, I'm Agus. Senior Product Manager focused on solution design and zero to one. I take a problem, shape the strategy, write the plan, and build the first version that proves value, whether it is a POC, an MVP, or a robust product ready to scale.
+              Hi, I&apos;m Agus. Senior Product Manager focused on solution design and zero to one. I take a problem, shape the strategy, write the plan, and build the first version that proves value, whether it is a POC, an MVP, or a robust product ready to scale.
             </motion.p>
           </div>
 
