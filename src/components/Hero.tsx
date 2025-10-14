@@ -90,10 +90,10 @@ export function Hero() {
             {[
               { name: "Airtable", file: "airtable.svg" },
               { name: "Bolt", file: "bolt.png" },
-              { name: "Cursor", file: "Cursor.svg" },
+              { name: "Cursor", file: "cursor.svg" },
               { name: "Figma", file: "figma.svg" },
               { name: "GitHub", file: "github.svg" },
-              { name: "Linear", file: "Linear.svg" },
+              { name: "Linear", file: "linear.svg" },
               { name: "Make", file: "make.svg" },
               { name: "Miro", file: "miro.svg" },
               { name: "n8n", file: "n8n.svg" },
