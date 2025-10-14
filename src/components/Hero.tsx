@@ -41,7 +41,7 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
                 className="text-slate-900 font-sans text-lg md:text-xl lg:text-2xl leading-relaxed font-medium"
               >
-                Hi, I'm Agus. Senior Product Manager with over 7 years of experience turning ideas into real products. I bridge strategy, design, and technology to shape solutions and build first versions that validate value from proof of concept to scalable products.
+                Hi, I&apos;m Agus. Senior Product Manager with over 7 years of experience turning ideas into real products. I bridge strategy, design, and technology to shape solutions and build first versions that validate value from proof of concept to scalable products.
               </motion.h1>
             </div>
 
