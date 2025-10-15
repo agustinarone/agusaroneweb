@@ -54,20 +54,20 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
                 className="space-y-6"
               >
-                <div className="flex items-start gap-4">
-                  <div className="w-0.5 h-8 bg-slate-300 mt-1"></div>
+                <div className="flex items-center gap-4">
+                  <div className="w-px h-6 bg-slate-300"></div>
                   <div>
                     <div className="text-slate-900 font-medium">7+ Years Experience</div>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-0.5 h-8 bg-slate-300 mt-1"></div>
+                <div className="flex items-center gap-4">
+                  <div className="w-px h-6 bg-slate-300"></div>
                   <div>
                     <div className="text-slate-900 font-medium">Based in Buenos Aires, Argentina 🧉</div>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-0.5 h-8 bg-slate-300 mt-1"></div>
+                <div className="flex items-center gap-4">
+                  <div className="w-px h-6 bg-slate-300"></div>
                   <div>
                     <div className="text-slate-900 font-medium"><span className="font-semibold">0→1</span> Specialist</div>
                   </div>
