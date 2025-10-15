@@ -157,6 +157,14 @@ export function Hero() {
             <div className="space-y-2">
               <div className="text-slate-900 font-medium text-base md:text-sm">Founder</div>
               <div className="text-slate-600 text-base md:text-sm">Brandvan Agency</div>
+              <a 
+                href="https://www.behance.net/brandvan_" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-slate-500 hover:text-slate-700 transition-colors text-base md:text-sm"
+              >
+               behance.net/brandvan_
+              </a>
             </div>
           </div>
         </motion.div>

@@ -10,7 +10,7 @@ export function HowIHelp() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
-        className="flex-1 flex items-center px-8 py-16"
+        className="flex-1 flex items-center px-8 py-12"
       >
         <div className="w-full max-w-4xl mx-auto">
           <div className="space-y-12">
@@ -32,7 +32,7 @@ export function HowIHelp() {
               transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
               className="border-b border-white/20 pb-8"
             >
-              <h2 className="text-white font-sans text-2xl lg:text-3xl font-medium mb-4">
+              <h2 className="text-white font-sans text-xl lg:text-2xl font-medium mb-4">
                 Shape your idea into a product
               </h2>
               <p className="text-white/90 font-sans text-lg leading-relaxed">
@@ -47,7 +47,7 @@ export function HowIHelp() {
               transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
               className="border-b border-white/20 pb-8"
             >
-              <h2 className="text-white font-sans text-2xl lg:text-3xl font-medium mb-4">
+              <h2 className="text-white font-sans text-xl lg:text-2xl font-medium mb-4">
                 Design and develop your website
               </h2>
               <p className="text-white/90 font-sans text-lg leading-relaxed">
@@ -62,7 +62,7 @@ export function HowIHelp() {
               transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
               className="border-b border-white/20 pb-8"
             >
-              <h2 className="text-white font-sans text-2xl lg:text-3xl font-medium mb-4">
+              <h2 className="text-white font-sans text-xl lg:text-2xl font-medium mb-4">
                 Design and develop your e-commerce
               </h2>
               <p className="text-white/90 font-sans text-lg leading-relaxed">
@@ -76,7 +76,7 @@ export function HowIHelp() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6, ease: "easeOut" }}
             >
-              <h2 className="text-white font-sans text-2xl lg:text-3xl font-medium mb-4">
+              <h2 className="text-white font-sans text-xl lg:text-2xl font-medium mb-4">
                 Automate complex workflows
               </h2>
               <p className="text-white/90 font-sans text-lg leading-relaxed">
