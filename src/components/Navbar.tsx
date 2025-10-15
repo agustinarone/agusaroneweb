@@ -11,7 +11,7 @@ export function FixedNavbar() {
       className="fixed top-0 left-0 right-0 z-50 bg-[var(--background)]/90 backdrop-blur-sm border-b border-[var(--border)]"
     >
       <div className="px-6 md:px-8 py-4 flex flex-col md:flex-row md:justify-between md:items-center gap-2">
-        <h1 className="w-full text-left text-[var(--foreground)] font-sans text-lg font-medium"><a href="/">Agustín Arone Castellari</a></h1>
+        <h1 className="w-full text-left text-[var(--foreground)] font-sans text-lg font-medium"><a href="https://agusarone.com">Agustín Arone Castellari</a></h1>
         <div className="hidden md:flex items-center space-x-6 md:w-auto md:justify-end">
           <a
             href="https://www.linkedin.com/in/agustinarone/"
