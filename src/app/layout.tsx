@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Agus Arone — Strategic Product Designer",
+  title: "Agus Arone — Strategic Product Manager",
   description: "Designing clarity in complex products. I help teams turn ambiguity into direction — aligning strategy, design, and data to deliver measurable outcomes.",
   openGraph: {
     title: "Agus Arone — Strategic Product Designer",
