@@ -96,4 +96,4 @@ The site is configured for deployment on Vercel:
 
 ## License
 
-© 2024 Agus Arone. All rights reserved.
+© 2025 Agus Arone. All rights reserved.

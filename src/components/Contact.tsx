@@ -24,7 +24,8 @@ export function Contact() {
                 Get in Touch
               </h2>
               <blockquote className="text-[var(--background)] font-sans text-lg leading-relaxed mt-6 italic">
-                If you&apos;re shaping your next product, let&apos;s talk. Together we can define what&apos;s worth building and how to build it right.
+              If you&apos;re working on something new, exploring an idea, or just want to connect, let&apos;s talk.
+              I&apos;m always open to sharing thoughts, exchanging experiences, or exploring ways we can build better products together.
               </blockquote>
             </motion.div>
 
@@ -39,7 +40,7 @@ export function Contact() {
                 href="https://calendly.com/agustinarone/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-[var(--accent)] text-white px-8 py-4 rounded-lg hover:bg-[var(--accent-soft)] transition-colors font-sans text-lg font-medium"
+                className="inline-block bg-[var(--accent)] text-white px-8 py-4 rounded-lg  transition-colors font-sans text-lg font-medium"
               >
                 Book a 30-minute call →
               </a>

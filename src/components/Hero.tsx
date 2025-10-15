@@ -88,19 +88,21 @@ export function Hero() {
           </div>
           <div className="grid grid-cols-7 gap-8 items-center justify-items-center">
             {[
-              { name: "Airtable", file: "airtable.svg" },
+              
               { name: "Bolt", file: "bolt.png" },
               { name: "Cursor", file: "cursor.svg" },
-              { name: "Figma", file: "figma.svg" },
-              { name: "GitHub", file: "github.svg" },
-              { name: "Linear", file: "linear.svg" },
-              { name: "Make", file: "make.svg" },
-              { name: "Miro", file: "miro.svg" },
-              { name: "n8n", file: "n8n.svg" },
-              { name: "OpenAI", file: "openai.svg" },
-              { name: "Softr", file: "softr.svg" },
               { name: "Supabase", file: "supabase.svg" },
+              { name: "GitHub", file: "github.svg" },
+              { name: "Vercel", file: "vercel.svg" },
+              { name: "n8n", file: "n8n.svg" },
+              { name: "Make", file: "make.svg" },
               { name: "WordPress", file: "wordpress.svg" },
+              { name: "Figma", file: "figma.svg" },
+              { name: "Linear", file: "linear.svg" },            
+              { name: "Miro", file: "miro.svg" },  
+              { name: "OpenAI", file: "openai.svg" },
+              { name: "Airtable", file: "airtable.svg" },
+              { name: "Softr", file: "softr.svg" },
             ].map((tool) => (
               <div key={tool.name} className="h-8 flex items-center">
                 <img

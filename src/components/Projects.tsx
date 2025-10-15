@@ -22,7 +22,7 @@ export function Projects() {
               transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
             >
               <h2 className="text-[var(--foreground)] font-sans text-3xl lg:text-4xl font-medium">
-                Selected Projects
+              Companies I&apos;ve Worked With
               </h2>
             </motion.div>
 
@@ -52,20 +52,23 @@ export function Projects() {
                           {project.name}
                         </h3>
                         <div className="flex items-center space-x-2 text-sm text-[var(--foreground-muted)]">
-                          <span>{project.year}</span>
-                          <span>•</span>
                           <span>{project.roles.join(", ")}</span>
                         </div>
                       </div>
                     </div>
-                    {project.url !== "#" && (
+                    {project.linkedin && (
                       <a
-                        href={project.url}
+                        href={project.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-[var(--accent)] hover:text-[var(--accent-soft)] transition-colors font-sans text-sm"
+                        aria-label="LinkedIn"
+                        className="opacity-80 hover:opacity-100 transition-opacity"
                       >
-                        View →
+                        <img
+                          src="/logos/linkedin.svg"
+                          alt="LinkedIn"
+                          className="w-5 h-5"
+                        />
                       </a>
                     )}
                   </div>

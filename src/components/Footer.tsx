@@ -6,11 +6,11 @@ export function Footer() {
       <Section className="py-8">
         <div className="flex flex-col sm:flex-row items-center justify-between">
           <p className="text-sm text-[var(--foreground-muted)]">
-            © 2024 Agus Arone. All rights reserved.
+            © 2025 Agus Arone. All rights reserved.
           </p>
           <div className="flex items-center space-x-6 mt-4 sm:mt-0">
             <a
-              href="https://linkedin.com/in/agusarone"
+              href="https://www.linkedin.com/in/agustinarone/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-[var(--foreground-muted)] hover:text-[var(--foreground)] transition-colors"
@@ -18,7 +18,7 @@ export function Footer() {
               LinkedIn
             </a>
             <a
-              href="mailto:agus@example.com"
+              href="mailto:hi@agusarone.com"
               className="text-sm text-[var(--foreground-muted)] hover:text-[var(--foreground)] transition-colors"
             >
               Email

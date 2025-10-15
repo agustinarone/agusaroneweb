@@ -11,17 +11,6 @@
   --surface-alt: #F2D7D3;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-foreground-muted: var(--foreground-muted);
-  --color-accent: var(--accent);
-  --color-border: var(--border);
-  --color-secondary: var(--secondary);
-  --color-accent-soft: var(--accent-soft);
-  --color-surface-alt: var(--surface-alt);
-  --font-sans: var(--font-inter);
-}
 
 body {
   background: var(--background);

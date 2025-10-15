@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { Project } from "@/data/projects";
-import { formatUrl } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 
 interface ProjectCardProps {
@@ -28,26 +27,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
             {project.name.charAt(0)}
           </span>
         </div>
-        <a
-          href={formatUrl(project.url)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="opacity-0 group-hover:opacity-100 transition-opacity"
-        >
-          <svg
-            className="w-5 h-5 text-[var(--foreground-muted)]"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-            />
-          </svg>
-        </a>
+        {/* External link removed as projects no longer have url */}
       </div>
 
       <div className="space-y-3">
@@ -55,9 +35,6 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
           <h3 className="text-lg font-semibold text-[var(--foreground)]">
             {project.name}
           </h3>
-          <span className="text-sm text-[var(--foreground-muted)]">
-            {project.year}
-          </span>
         </div>
 
         <div className="flex flex-wrap gap-2">

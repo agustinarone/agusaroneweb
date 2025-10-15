@@ -1,4 +1,4 @@
-import { FixedNavbar } from "@/components/FixedNavbar";
+import { FixedNavbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { HowIHelp } from "@/components/HowIHelp";
 import { Projects } from "@/components/Projects";
