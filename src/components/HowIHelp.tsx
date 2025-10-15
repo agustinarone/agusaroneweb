@@ -21,7 +21,7 @@ export function HowIHelp() {
               transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
             >
               <h2 className="text-white font-sans text-3xl lg:text-4xl font-medium">
-                How can I help
+              How I can help you
               </h2>
             </motion.div>
 

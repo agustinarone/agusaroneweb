@@ -21,7 +21,7 @@ export function Footer() {
               href="mailto:hi@agusarone.com"
               className="text-sm text-[var(--foreground-muted)] hover:text-[var(--foreground)] transition-colors"
             >
-              Email
+              hi@agusarone.com
             </a>
           </div>
         </div>

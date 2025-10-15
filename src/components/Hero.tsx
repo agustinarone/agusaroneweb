@@ -29,7 +29,7 @@ export function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
-                className="text-slate-600 text-sm font-medium tracking-widest uppercase"
+                className="text-slate-600 text-sm font-medium tracking-widest uppercase pt-2 md:pt-0"
               >
                 Product Manager
               </motion.div>
@@ -41,7 +41,8 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
                 className="text-slate-900 font-sans text-lg md:text-xl lg:text-2xl leading-relaxed font-medium"
               >
-                Hi, I&apos;m Agus. Senior Product Manager with over 7 years of experience turning ideas into real products. I bridge strategy, design, and technology to shape solutions and build first versions that validate value from proof of concept to scalable products.
+                Hi, I&apos;m Agus. Senior Product Manager with over 7 years of experience turning ideas into real products. I bridge strategy, design, and technology to shape solutions from proof of concept and MVPs to scalable, validated products.
+                <br /> <br />I also build AI-powered tools and automations that simplify work and help teams focus on what truly matters.
               </motion.h1>
             </div>
 
@@ -88,14 +89,13 @@ export function Hero() {
           </div>
           <div className="grid grid-cols-7 gap-8 items-center justify-items-center">
             {[
-              
+              { name: "n8n", file: "n8n.svg" },
+              { name: "Make", file: "make.svg" },
               { name: "Bolt", file: "bolt.png" },
               { name: "Cursor", file: "cursor.svg" },
               { name: "Supabase", file: "supabase.svg" },
               { name: "GitHub", file: "github.svg" },
               { name: "Vercel", file: "vercel.svg" },
-              { name: "n8n", file: "n8n.svg" },
-              { name: "Make", file: "make.svg" },
               { name: "WordPress", file: "wordpress.svg" },
               { name: "Figma", file: "figma.svg" },
               { name: "Linear", file: "linear.svg" },            
@@ -126,37 +126,37 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.5, ease: "easeOut" }}
           className="mt-16 max-w-6xl mx-auto w-full"
         >
-          <div className="text-slate-600 text-sm font-medium tracking-widest uppercase mb-8">
+          <div className="text-slate-600 text-base md:text-sm font-medium tracking-widest uppercase mb-8">
             Experience
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-10">
             <div className="space-y-2">
-              <div className="text-slate-900 font-medium text-sm">Head of Product</div>
-              <div className="text-slate-600 text-sm">Sidetool</div>
+              <div className="text-slate-900 font-medium text-base md:text-sm">Head of Product</div>
+              <div className="text-slate-600 text-base md:text-sm">Sidetool</div>
               <a 
                 href="https://sidetool.co" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-slate-500 hover:text-slate-700 transition-colors text-sm"
+                className="text-slate-500 hover:text-slate-700 transition-colors text-base md:text-sm"
               >
                 sidetool.co
               </a>
             </div>
             <div className="space-y-2">
-              <div className="text-slate-900 font-medium text-sm">Automation Specialist</div>
-              <div className="text-slate-600 text-sm">PsiMammoliti</div>
+              <div className="text-slate-900 font-medium text-base md:text-sm">Automation Specialist</div>
+              <div className="text-slate-600 text-base md:text-sm">PsiMammoliti</div>
               <a 
                 href="https://psimammoliti.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-slate-500 hover:text-slate-700 transition-colors text-sm"
+                className="text-slate-500 hover:text-slate-700 transition-colors text-base md:text-sm"
               >
                 psimammoliti.com
               </a>
             </div>
             <div className="space-y-2">
-              <div className="text-slate-900 font-medium text-sm">Founder</div>
-              <div className="text-slate-600 text-sm">Brandvan Agency</div>
+              <div className="text-slate-900 font-medium text-base md:text-sm">Founder</div>
+              <div className="text-slate-600 text-base md:text-sm">Brandvan Agency</div>
             </div>
           </div>
         </motion.div>
